@@ -21,7 +21,7 @@ export class TasksController{
         return this.tasksService.findOne(Number(id));
     }
 
-    @Patch('id')
+    @Patch(':id')
     updateTask(@Param('id') id: string, @Body() task:Task,): Promise<Task> {
         return this.tasksService.update(Number(id), task);
     }
