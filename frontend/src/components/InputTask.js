@@ -16,19 +16,21 @@ const InputTask = () => {
             });
 
         console.log(response);
+        window.location = "/";
+
         } catch (err) {
             console.log(err.message);
         }
     }
     return ( 
         <Fragment>
-            <h1 className="text-center my-5">Input Task</h1>
+            <h1 className="text-center my-5">What are your plans for this week?</h1>
             <form className="d-flex"
             onSubmit={onSubmitForm}>
                 <input type="text" placeholder="add
                  task" className="form-control"
                  value={title} onChange={e=> setTitle(e.target.value)} /> 
-                 <button className="btn btn-success">Add</button>
+                 <button className="btn btn-primary">Add</button>
             </form>
         </Fragment>
         
