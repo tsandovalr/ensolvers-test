@@ -10,9 +10,7 @@ id: number;
 title: string;
 
 @Column({
-    type: 'enum',
-    enum: StatusEnum,
-    default: StatusEnum.Suggestion
+    default: false
 })
-status: string;
+status: boolean;
 };
