@@ -7,12 +7,12 @@ https://ensolvers-tasks.herokuapp.com/
 
 ### Database
 
-Postgresql v8.7.1v,
+Postgresql v8.7.1v -
 Typeorm": v0.2.41
 
 ### Backend
 
-Nest.JS v8.0.0
+Nest.JS v8.0.0 -
 Node.JS v14.17.6
 
 For testing with postman:
@@ -22,7 +22,7 @@ https://ensolvers-back.herokuapp.com/api/tasks
 
 I noticed the similarities between NestJs and Angular, but I did it with React. I enjoyed learning and developing with nest.
 
-Node.JS v14.17.6
+Node.JS v14.17.6 -
 React v.17.0.2
 
 ## Start the app
